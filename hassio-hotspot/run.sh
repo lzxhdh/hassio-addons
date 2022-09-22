@@ -72,7 +72,7 @@ if [[ ${UNKNOWN} == true ]]; then
 fi
 
 echo "Set nmcli managed no"
-nmcli dev set ${INTERFACE} managed no
+/data/nmcli dev set ${INTERFACE} managed no
 
 echo "Network interface set to ${INTERFACE}"
 
